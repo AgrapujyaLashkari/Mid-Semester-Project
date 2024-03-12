@@ -159,13 +159,24 @@ input[type="range"] {
     position: relative;
     left: 5%;
     cursor: pointer;
-   
-
-
+    font-size: 18px;
+    color: black;
+    font-weight: 501;
 }
-.generateBtn span{
+
+
+/* .generateBtn span{
     font-size: 18px;
     color: black;
     font-weight: 501;
 
+} */
+
+button:hover{
+    background-color: black;
+    color: #A3FFAE;
+    border: 2px solid #A3FFAE;
+}
+button>svg:hover{
+    color: #A3FFAE;
 }
